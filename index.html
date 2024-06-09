@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bebi</title>
+  <meta name="author" content="Reem">
+  <link rel="stylesheet" href="css/1.css">
+  <link rel="stylesheet" href="css/2.css">
+  <link rel="stylesheet" href="css/3.css">
+  <link rel="stylesheet" href="css/4.css">
+  <link rel="shortcut icon" type="x-icon" href="image/bibisitelogo.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+
+<body>
+  <div class="container2" id="container2">
+    <h1>Hi bebi (:</h1>
+    <img src=""/><center>
+    <img src="https://bestanimations.com/uploads/gifs/1684669800kawaii-kitten-super-cute-pink-hearts-animated-gif-1.gif" width="200px" height="200px">
+    <button class="button" id="button">Press me -.-</button>
+  </div>
+
+  <div class="container" id="container">
+    <div class="inside_container">
+      <h1 class="page_title">I Love You</h1>
+      <a class="button_menu" onclick="klikMenu()"></a>
+      <section class="title1 inside_title" onclick="movetopage(0)">
+        <h1 class="page_title">I</h1>
+        <br>
+        <img src="image/img1.jpg" class="image">
+        <br>
+        <div class="saying1">
+          <p class="speech1">Look at that arent we so cute haha. Hi bibi i want to let u know how much I love you and appreciate having u as my gf. I’d like to thank uu for being there for me always. U won’t find enough words in all languages and dictionaries that would tell u how happy I am to have u as my gf. I love youu</p>
+        </div>
+      </section>
+      <section class="title2 inside_title" onclick="movetopage(1)">
+        <h1 class="page_title">Love</h1>
+        <br>
+        <img src="image/img2.jpg" class="image">
+        <br>
+        <div class="saying2">
+          <p class="speech2">Who is that??? That's my baby girl right theree!! So prettyy. If i'm a zombie u the only one i am gonna eat and i'll have a little mary with u haha i wanna give u many many kisses also <b>hickeys ;)
+          
+          <img src="https://thumbs.gfycat.com/AggravatingQuaintBittern-max-1mb.gif" width="100px" height="100px">
+          </p>
+        </div>
+      </section>
+      <section class="title3 inside_title" onclick="movetopage(2)">
+        <h1 class="page_title">You</h1>
+        <br>
+        <img src="image/img3.png" class="image">
+        <br>
+        <div class="saying3">
+          <p class="speech3">Time flies so fast eh? Happy 1year and 3months again baby ko. I love youuu sooo muchh!! Many more to come babyyy. </p>
+          <img src="https://thumbs.gfycat.com/ImpolitePessimisticChimpanzee.webp" width="100px" height="100px">
+        </div>
+      </section>
+      <section class="title4 inside_title" onclick="movetopage(3)">
+        <h1 class="page_title">What date is it? <br>It is..</h1>
+        <br>
+        <h1 id="time"></h1>
+        <script type="text/javascript">
+          document.write("<center>");
+          var day = new Date();
+          var jam = day.getHours();
+          if (jam >= 0 && jam < 12) {
+            document.write(
+              "<h1 class='saying'>So cheers to our 15th months together!!</h1><p class='speech'>Bibi ko. So here I am again coding something for you haha. I love youuu my baby. 15 months with uu ty for everything <3 press that 3 lines up there for moree haha <p>"
+            );
+          } else if (jam == 12) {
+            document.write(
+              "<h1 class='saying'>So cheers to our 15th months together!!</h1><p class='speech'>Bibi ko. So here I am again coding something for you haha. I love youuu my baby. 15 months with uu ty for everything <3 press that 3 lines up there for moree haha <p>"
+            );
+          } else if (jam >= 12 && jam <= 17) {
+            document.write(
+              "<h1 class='saying'>So cheers to our 15th months together!!</h1><p class='speech'>Bibi ko. So here I am again coding something for you haha. I love youuu my baby. 15 months with uu ty for everything <3 press that 3 lines up there for moree haha <p>"
+            );
+          } else {
+            document.write(
+              "<h1 class='saying'>So cheers to our 15th months together!!</h1><p class='speech'>Bibi ko. So here I am again coding something for you haha. I love youuu my baby. 15 months with uu ty for everything <3 press that 3 lines up there for moree haha <p>"
+            );
+          }
+          document.write("</center>");
+        </script>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    integrity="sha512-synHs+rLg2WDVE9U0oHVJURDCiqft60GcWOW7tXySy8oIr0Hjl3K9gv7Bq/gSj4NDVpc5vmsNkMGGJ6t2VpUMA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
+  <script src="js/script.js"></script>
+  <script>
+    document.getElementById("time").innerHTML = formatAMPM();
+
+    function formatAMPM() {
+      var time = new Date(),
+        minute = time.getMinutes().toString().length == 1 ? '0' + time.getMinutes() : time.getMinutes(),
+        jam = time.getHours().toString().length == 1 ? '0' + time.getHours() : time.getHours(),
+        ampm = time.getHours() >= 12 ? 'PM' : 'AM',
+        month = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
+          'November', 'December'
+        ],
+        day = ['Monday', 'Tuesday', 'Wed', 'Thurs', 'Fri', 'Sat', 'Sat'];
+      return '<h1 class="ml1"><span class="text-wrapper"><span class="line line1"></span><span class="letters">' + day[
+          time.getDay()] +
+        ', ' + time.getDate() + ' ' + month[time.getMonth()] +
+        ' ' + time.getFullYear() + '</span><span class="line line2"></span></span></h1><p class="ml2"> ' + jam + ':' +
+        minute + ' ' + ampm + ' </p>';
+
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      var audio = new Audio('audio/universe.mp3');
+      $("#button").click(function () {
+        $("#container2").fadeOut();
+        $("#container").fadeIn("4000");
+        audio.play();
+      });
+    });
+  </script>
+  <script>
+    var textWrapper = document.querySelector('.ml1 .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.ml1 .letter',
+        scale: [0.3, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 600,
+        delay: (el, i) => 70 * (i + 1)
+      }).add({
+        targets: '.ml1 .line',
+        scaleX: [0, 1],
+        opacity: [0.5, 1],
+        easing: "easeOutExpo",
+        duration: 700,
+        offset: '-=875',
+        delay: (el, i, l) => 80 * (l - i)
+      }).add({
+        targets: '.ml1',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+  <script>
+    var textWrapper = document.querySelector('.ml2');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({
+        loop: false
+      })
+      .add({
+        targets: '.ml2 .letter',
+        scale: [4, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: 1400
+      }).add({
+        targets: '.ml2',
+        opacity: 1,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+</body>
+</html>
