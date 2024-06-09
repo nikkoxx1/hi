@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body,
+html {
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  background: linear-gradient(-45deg, #f1ca89, #f29191, #907fa4, #4aa96c);
+  background-size: 400% 400%;
+  animation: animasiBegron 15s ease infinite;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.container2 {
+  padding: 20px;
+  text-align: center;
+  margin-top: 17%;
+}
+
+.container2 h1 {
+  color: #f5f5f5;
+  position: fixed;
+  left: 125px;
+  top: 190px;
+}
+
+.container2 .button {
+  padding: 10px 30px 10px 30px;
+  background: transparent;
+  color: #BCCFD7;
+  outline: none;
+  border: 2px solid #BCCFD7;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container2 .button:hover {
+  cursor: pointer;
+  padding: 10px 30px 10px 30px;
+  background: #BCCFD7;
+  color: #f5f5f5;
+  outline: none;
+  border: 2px solid #BCCFD7;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 20px;
+  height: 100%;
+}
+
+.inside_container {
+  text-align: center;
+  background: #867ae9;
+  width: 100%;
+  height: 94%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.inside_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.3s;
+
+}
+
+section .image {
+  border-radius: 10px;
+  max-width: 50%;
+  max-height: 45%;
+}
+
+section .saying {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: #404040;
+}
+
+section .speech {
+  color: #707070;
+  width: 82%;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+section.title1 {
+  background: #ff96ad;
+  -webkit-transition-delay: 0s;
+}
+
+.title1 .saying1 {
+  width: 100%;
+  text-align: center;
+}
+
+.title1 .speech1 {
+  display: inline-block;
+  width: 80%;
+  color: #f5f5f5;
+}
+
+section.title2 {
+  background: #BCCFD7;
+  -webkit-transition-delay: 0.05s;
+}
+
+.title2 .saying2 {
+  width: 100%;
+  text-align: center;
+}
+
+.title2 .speech2 {
+  display: inline-block;
+  width: 80%;
+  color: #404040;
+}
+
+section.title3 {
+  background: #D3B0AD;
+  -webkit-transition-delay: 0.1s;
+}
+
+.title3 .saying3 {
+  width: 100%;
+  text-align: center;
+}
+
+.title3 .speech3 {
+  display: inline-block;
+  width: 80%;
+  color: #f5f5f5;
+}
+
+section.title4 {
+  background: #f1ca89;
+  -webkit-transition-delay: 0.15s;
+}
+
+section.after {
+  -webkit-transform: translateY(100%);
+}
+
+.button_menu {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 54px;
+  cursor: pointer;
+  background: url(../image/menu.png) no-repeat center;
+  background-size: 44px;
+}
+
+.button_menu:active {
+  opacity: 0.2;
+}
+
+
+
+.page_title {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  line-height: 70px;
+  -webkit-user-select: title1;
+}
+
+.page-title1 section.title1 {
+  -webkit-transition-delay: 0s;
+}
+
+.page-title1 section.title2 {
+  -webkit-transition-delay: 0.15s;
+}
+
+.page-title1 section.title3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.page-title1 section.title4 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.page-title2 section.title1 {
+  -webkit-transition-delay: 0s;
+}
+
+.page-title2 section.title2 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.page-title2 section.title3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.page-title2 section.title4 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.buka_menu section {
+  cursor: pointer;
+}
+
+.buka_menu section.title1 {
+  -webkit-transform: translateY(70px);
+  -webkit-transition-delay: 0.15s;
+}
+
+
+.buka_menu section.title2 {
+  -webkit-transform: translateY(140px);
+  -webkit-transition-delay: 0.1s;
+}
+
+
+.buka_menu section.title3 {
+  -webkit-transform: translateY(210px);
+  -webkit-transition-delay: 0.05s;
+}
+
+
+.buka_menu section.title4 {
+  -webkit-transform: translateY(280px);
+  -webkit-transition-delay: 0s;
+}
+
+
+.buka_menu.page-title1 section.title1 {
+  -webkit-transition-delay: 0s;
+}
+
+.buka_menu.page-title1 section.title2 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.buka_menu.page-title1 section.title3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.buka_menu.page-title1 section.title4 {
+  -webkit-transition-delay: 0.15s;
+}
+
+.buka_menu.page-title2 section.title1 {
+  -webkit-transition-delay: 0s;
+}
+
+.buka_menu.page-title2 section.title2 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.buka_menu.page-title2 section.title3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.buka_menu.page-title2 section.title4 {
+  -webkit-transition-delay: 0.15s;
+}
+
+/*Animasion background*/
+@keyframes animasiBegron {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
